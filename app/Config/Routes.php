@@ -7,3 +7,12 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->setAutoRoute(true);
+
+$routes->group('admin', static function ($routes) {
+    $routes->group('', [], static function ($routes) {
+        $routes->view('example-page', 'example-page');
+    });
+    $routes->group('', [], static function ($routes) {
+        $routes->view('example-auth', 'example-auth');
+    });
+});
