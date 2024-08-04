@@ -1,9 +1,50 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Page-1" id="nn96d9IBUdXU8P5-aG5S">
-    <mxGraphModel>
+    <mxGraphModel dx="660" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eWljaQQtlUlQl99zDNMi-1" value="User&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eWljaQQtlUlQl99zDNMi-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="360" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="eWljaQQtlUlQl99zDNMi-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eWljaQQtlUlQl99zDNMi-1" target="eWljaQQtlUlQl99zDNMi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eWljaQQtlUlQl99zDNMi-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eWljaQQtlUlQl99zDNMi-3" target="eWljaQQtlUlQl99zDNMi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eWljaQQtlUlQl99zDNMi-7" value="extend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eWljaQQtlUlQl99zDNMi-6">
+          <mxGeometry x="-0.2505" y="3" relative="1" as="geometry">
+            <mxPoint x="12" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eWljaQQtlUlQl99zDNMi-3" value="Melihat Lokasi Sebaran Pengguna" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="235" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eWljaQQtlUlQl99zDNMi-4" value="melihat Detail Lokasi" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="235" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eWljaQQtlUlQl99zDNMi-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eWljaQQtlUlQl99zDNMi-9" target="eWljaQQtlUlQl99zDNMi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eWljaQQtlUlQl99zDNMi-9" value="Admin&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="310" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eWljaQQtlUlQl99zDNMi-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eWljaQQtlUlQl99zDNMi-10" target="eWljaQQtlUlQl99zDNMi-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eWljaQQtlUlQl99zDNMi-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eWljaQQtlUlQl99zDNMi-10" target="eWljaQQtlUlQl99zDNMi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eWljaQQtlUlQl99zDNMi-10" value="Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="315" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eWljaQQtlUlQl99zDNMi-12" value="Mengelola Data Web" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="390" width="110" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
